@@ -1,0 +1,10 @@
+<div class="row">
+                      <div class="form-group col-md-12" ng-controller = "myCtrl">
+                          <label class="col-md-2 control-lable" for="file">Upload File</label>
+                          <div class="col-md-7">
+                          <input type="file" file-model="myFile"/>
+                          <button ng-click="uploadFile()">upload me</button>
+                          </div>
+                          
+                      </div>
+                      </div>
